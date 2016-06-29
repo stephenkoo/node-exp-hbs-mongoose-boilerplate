@@ -1,0 +1,6 @@
+<form action="/users/<%= user._id %>?_method=PATCH" method="POST">
+	Name: <input type="text" name='name' value="<%= user.name %>">
+	Title: <select size="1" id="title" name='title' value="<%= user.title %>">
+	</select>
+	<input type="submit" value="Save Changes">
+</form>
